@@ -1,0 +1,246 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="Prev
+Counterfactuals and dispositions Uses Principia Mathematica notation, which takes some time to learn.
+Goodman has let the formalism of classical extensional logic mislead him in thinking about counterfactuals."><title>04 - Counterfactuals and the Kant-Sellars Thesis (2009)</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://kris-brown.github.io//icon.png><link href=https://kris-brown.github.io/styles.706bb6073ba85d26809f9096dae23a6b.min.css rel=stylesheet><link href=https://kris-brown.github.io/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://kris-brown.github.io/js/darkmode.0db4ccd59942d33bb20148b528b0599d.min.js></script>
+<script src=https://kris-brown.github.io/js/util.5e39932758f9ecaf45fd54506ed61416.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://kris-brown.github.io/js/popover.6da9b273c092cc16fc1aa904d71a2163.min.js></script>
+<script src=https://kris-brown.github.io/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://kris-brown.github.io/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://kris-brown.github.io/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://kris-brown.github.io/",fetchData=Promise.all([fetch("https://kris-brown.github.io/indices/linkIndex.db69a23989d3ca2c6bd90a39084abce2.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://kris-brown.github.io/indices/contentIndex.766730062a4b5360fedf64752b72a5b6.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://kris-brown.github.io",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://kris-brown.github.io",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}var i=document.getElementsByClassName("mermaid");i.length>0&&import("https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs").then(e=>{e.default.init()})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{"’":"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/kris-brown.github.io\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://kris-brown.github.io/js/full-text-search.51f0b1753e9b30839d053f8a98cc20d1.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://kris-brown.github.io/>Kris Brown Notes</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>04 - Counterfactuals and the Kant-Sellars Thesis (2009)</h1><p class=meta></p><ul class=tags><li><a href=https://kris-brown.github.io/tags/philosophy/lecture/>Philosophy lecture</a></li><li><a href=https://kris-brown.github.io/tags/philosophy/person/brandom/>Philosophy person brandom</a></li><li><a href=https://kris-brown.github.io/tags/status/RED/>Status red</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents></nav></details></aside><p><a rel=noopener class="internal-link broken" data-src=03%20-%20Language%20as%20thought%20and%20different%20species%20of%20ought%20%282009%29>Prev</a></p><a href=#counterfactuals-and-dispositions><h1 id=counterfactuals-and-dispositions><span class=hanchor arialabel=Anchor># </span>Counterfactuals and dispositions</h1></a><p>Uses
+<a href=../../works/Principia-Mathematica/ rel=noopener class=internal-link data-src=../../works/Principia-Mathematica/>Principia Mathematica</a>
+notation, which takes some time to learn.</p><p><a href=../../people/Nelson-Goodman/ rel=noopener class=internal-link data-src=../../people/Nelson-Goodman/>Goodman</a> has let the formalism of classical
+extensional logic mislead him in
+thinking about counterfactuals. He thought we could build up to counterfactuals
+from extensional logical vocabulary. The kind that can be built up by
+extensional logical vocabulary Sellars calls subjunctive identicals.</p><p>Goodman is impressed in
+<a href=../../works/Fact-Fiction-and-Forecast/ rel=noopener class=internal-link data-src=../../works/Fact-Fiction-and-Forecast/>Fact, Fiction, and Forecast</a>, with
+the difference between the claim &lsquo;All copper melts at 1084 °C&rsquo; and &lsquo;all the
+coins in my pocket are copper&rsquo;. The first supports counterfactual reasoning
+(&ldquo;if this coin in my pocket <em>were</em> copper, it&rsquo;d melt at 1084 °C&rdquo;) whereas if
+this nickel coin were in my pocket, it wouldn&rsquo;t be made of copper. However we
+can do some limited form of counterfactual reasoning: &ldquo;if I pulled a coin out
+of my pocket, it would be copper&rdquo;. We can always rephrase such counterfactuals
+(accidental generalizations) as a statement about something identical to an
+actual object. (The distinction is less sharp between genuine counterfactuals
+and subjunctive identicals is less sharp than he thinks, according to Brandom).</p><p>Sellars makes the distinction of
+<a href=../../Subjunctive-vs-counterfactual-conditionals/ rel=noopener class=internal-link data-src=../../Subjunctive-vs-counterfactual-conditionals/>subjunctive vs counterfactual conditionals</a>.</p><a href=#dispositions><h1 id=dispositions><span class=hanchor arialabel=Anchor># </span>Dispositions</h1></a><p>Sellars&rsquo; formalization of a disposition:</p><ol><li>A kind term<ul><li>More than a mere predicate: in addition to criteria of application, also
+have criteria of identity and individuation.</li><li>Two flavors: proper individuating terms as well as mass terms (which
+requires something like &lsquo;cup of&rsquo; to individuate)</li></ul></li><li>Condition term</li><li>Intervention term</li><li>Result term</li></ol><p>Canonical example: &ldquo;If you put the sugar in water, it will dissolve.&rdquo;</p><p>Distinct from a capacity claim: &ldquo;Sugar has the capacity to dissolve&rdquo; is a claim
+that there exists a condition and intervention such that the result obtain.</p><a href=#casual-modalities><h1 id=casual-modalities><span class=hanchor arialabel=Anchor># </span>Casual modalities</h1></a><p>Sellars first big idea: what was needed was a functional theory of concepts
+(especially alethic/normative modalities), which would make their role in
+reasoning, rather than their supposed origin and experience their primary
+feature. Sellars takes modal expressions to be inference licenses.</p><p>Jerry Fodor&rsquo;s theory of semantic content in terms of nomological locking: can&rsquo;t
+directly say anything about modality directly. Not alone: Dretske and other
+teleosemantic literature. Sellars wants to argue this program will never work.</p><p>An axial idea of
+<a href=../../people/Immanuel-Kant/ rel=noopener class=internal-link data-src=../../people/Immanuel-Kant/>Immanuel Kant</a>: the framework that
+makes description possible has features which we can express with words (words
+whose job is not to describe <sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> anything, but rather to make explicit features
+of the framework within which we can describe things).</p><p>The framework is often characterized with laws. With alethic modal vocabulary on
+the object side, normative vocabulary on the subject side.</p><p><a href=../../people/Immanuel-Kant/ rel=noopener class=internal-link data-src=../../people/Immanuel-Kant/>Immanuel Kant</a> is concerned with features that are
+necessary conditions of the possibility of applying descriptive contents. How
+are statements like that sensibly thought of as true or false? (where the home
+language game is ordinary descriptive language) Kant says yes, in a sense, but
+have to be careful. If these kinds of claims are knowledge, what kind of
+justification is involved in it? Can we think of them as expressing even a kind
+of empirical knowledge? (after all, we learned laws of nature empirically, it
+seems). We have to think about the relationship between the framework and what
+you can say, in the framework, and what you can say about the framework. Kant
+was the first one worried about all that stuff. Sellars wants to find a meta
+framework for talking about the relations between talk within that framework of
+description, and talk about that framework of description.</p><a href=#from-labels-to-descriptions><h1 id=from-labels-to-descriptions><span class=hanchor arialabel=Anchor># </span>From labels to descriptions</h1></a><p>Semantic nominalism was universally held until Kant. (philosophy today hasn&rsquo;t
+yet graduated from its Humean to its Kantian phase)</p><p>If you could argue that standing in counterfactually, robust inferential
+relations to other descriptive terms, was an essential feature of the
+descriptive content of a concept (and you could argue that modal vocabularies
+had the expressive job of making those explicit), then you&rsquo;d be in a position
+to argue for the Kant-Sellars thesis about modality. That would be to say that
+the expressive job of modal vocabulary is to make explicit the inferential
+relations between descriptive concepts (these are invisible to the empiricist).</p><p>Fork in road: Hume+Quine, or Kant+Sellars.</p><p>Labels are not descriptions. There&rsquo;s more to describing than labeling.</p><p>Consider mere labels. Elements on a tray have red or blue dots. Have they been
+described? If so, what have they been described as? If we add things to the
+tray, we don&rsquo;t know whether they deserve red or blue labels. At the very least,
+descriptions need a practice for applying to new cases. We can throw that in but
+still not have a description.</p><p>Suppose I&rsquo;m trying to give you the concept of gleeb. I give you an infalliable
+gleebness tester. Do you have a description?</p><blockquote><p>It&rsquo;s only because the expressions in terms of which we describe
+objects, locate those objects in a space of implications that they describe it
+all rather than merely label.</p></blockquote><p>—
+<a href=../../works/Counterfactuals-Dispositions-and-the-Causal-Modalities/ rel=noopener class=internal-link data-src=../../works/Counterfactuals-Dispositions-and-the-Causal-Modalities/>Counterfactuals, Dispositions, and the Causal Modalities</a> §108</p><ul><li>Describing is what science is the measure of all things. But it&rsquo;s more than
+classifying things.</li><li>Sellars is raising the issue &ldquo;what is description?&rdquo;</li></ul><p>Sellars says &ldquo;concepts as classifiers&rdquo; is
+<a href=../../Concepts-and-judgment/ rel=noopener class=internal-link data-src=../../Concepts-and-judgment/>not enough</a> to get to descriptions.</p><p>This is what a mere classifier does.</p><p>What&rsquo;s the difference between me and a parrot who has been trained to say &lsquo;red&rsquo;
+when presented a red object. The parrot isn&rsquo;t describing, but I am because my
+noise is situated in a space of implications: something follows for me from
+classifying that thing is red (that it&rsquo;s colored that it&rsquo;s spatially extended,
+that if it&rsquo;s a Macintosh Apple, it&rsquo;s right). And furthermore, other things can
+be evidence for the claim that it Scarlet is evidence for it or that it&rsquo;s a
+right Macintosh, Apple is evidence for it. And it excludes other
+classifications. That monochromatic patch is not green, if it&rsquo;s red, and so on.</p><p>The classifier focuses only on the <em>circumstances</em> of application, not the
+<em>consequences</em> of application. A way to answer what the red and blue dots
+describe an element <em>as</em> is to say what follows from something having a blue or
+red dot (e.g. things labelled red are to be discarded). Now we have some
+descriptive content associated with the label.</p><p>Verificationism / classical American pragmatism focused purely on the
+<em>consequences</em> of application.</p><p>To say we need both circumstances and consequences is to say that the inferences
+the concept plays into is an essential part of a concept.</p><p>If the only inferences we could make were truth functional relations, then a
+gleeb detector like thing could be sufficient to capture the concept of gleeb
+fully; however, we care about counterfactually robust inferences.</p><p>You can&rsquo;t count as understanding (i.e. grasp the meaning of) any descriptive
+expression / concept, unless you distinguish at least some of the inferences
+that it&rsquo;s involved (i.e. some of the connections within that space of
+implications) as counterfactually robust (i.e. ones that would still obtain,
+even if something that is true wasn&rsquo;t, or something that isn&rsquo;t true was). The
+claim is not that there are particular counterfactual inferences you need, but
+that you need at least <em>some</em> to have the concept.</p><p>Examples:</p><ul><li>Chestnut trees produce chestnuts<ul><li>Unless they&rsquo;re immature / blighted</li><li>Whether or not it&rsquo;s raining on them now wouldn&rsquo;t affect the fact that
+chestnut trees produce chestnuts</li></ul></li><li>Dry, well-made matches light if you strike them<ul><li>Not if there&rsquo;s not enough oxygen</li><li>The position of a distant beetle on a tree that doesn&rsquo;t affect whether
+this match lights</li></ul></li><li>The hungry lioness would chase the nearby Gazelle<ul><li>Not if it were struck by lightning</li><li>But it would, whether or not the hyena were watching it</li></ul></li></ul><p>Q: do we have to have overlap in our distinctions we made to communicate about
+the same concept?</p><p>A: The conceptual content itself is a norm that settles which inferences are
+correct and which are incorrect. Then, you and I may have different views about
+where that line is drawn. And what makes it possible for us to communicate (to
+agree or to disagree) is that we&rsquo;ve bound ourselves by the same norm by using
+the same word. You may think the melting point of copper is different from what
+I think it is. But we can still be disagreeing about copper because there&rsquo;s a
+fact of the matter about what you&rsquo;re committed to, on that issue, when you use
+the word &lsquo;copper&rsquo;.</p><p>Q: Is this a counter-example? You are asked to bring a thing to your lab (it
+just landed from an alien planet - you can&rsquo;t make any inferences about it).</p><p>A: It&rsquo;s complicated. Firstly, &rsquo;thing&rsquo; or &lsquo;object&rsquo; is not a sortal - you can&rsquo;t
+count them (they&rsquo;re pro-sortals, placeholders for sortals). If we supply one
+(e.g. place-occupying piece of mass - which would suffice give us some
+counterfactually robust inferences). If you don&rsquo;t supply one, you haven&rsquo;t
+thought about it. Related to Wittgenstein&rsquo;s
+<a href=../../Pointing-at-a-plate/ rel=noopener class=internal-link data-src=../../Pointing-at-a-plate/>plate example</a>.</p><p><a href=../../people/Immanuel-Kant/ rel=noopener class=internal-link data-src=../../people/Immanuel-Kant/>Immanuel Kant</a> says concepts are rules for judgment we
+<a href=../../people/Robert-Brandom/ rel=noopener class=internal-link data-src=../../people/Robert-Brandom/>bind ourselves by</a>. That doesn&rsquo;t settle the question of how much of the law we need to know in order to bind ourselves by it. I don&rsquo;t have to know much about molybdenum to refer to molybdenum.</p><a href=#semantic-nominalism><h1 id=semantic-nominalism><span class=hanchor arialabel=Anchor># </span>Semantic nominalism</h1></a><p>Semantic paradigm is the &ldquo;name-bearer&rdquo; relationship. E.g. the &lsquo;Fido&rsquo;-Fido
+relation, between the name &lsquo;Fido&rsquo; and the dog, Fido. Predicates/properties are
+just names that stick to the set.</p><p>If we stick together labels, we get descriptions (not a primitive name bearer
+relation, but one we can understand in terms of name-bearer relations). That&rsquo;s
+what language lets us do. Describe/classify things (as falling under languages).</p><p>Sellars calls this
+<a href=../../Descriptivism/ rel=noopener class=internal-link data-src=../../Descriptivism/>descriptivism</a>: what you do with language is describe things.</p><p>You find this not only in anglophone tradition but also in a pure form in
+Hussurl / semiotics.
+<a href=../../people/Jaques-Derrida/ rel=noopener class=internal-link data-src=../../people/Jaques-Derrida/>Derrida</a> rejects Hussurl because there are
+some phenomena that can&rsquo;t be related by sign-signified relations, but he
+addresses it by saying it&rsquo;s all signs.</p><p>Kant found sentences special: you don&rsquo;t describe things with them, you say
+things with them. Theory of judgment. The
+<a href=../../works/Tractatus-Logico-Philosophicus/ rel=noopener class=internal-link data-src=../../works/Tractatus-Logico-Philosophicus/>Tractatus Logico-Philosophicus</a> has no
+room for statements of natural law. For normative statements, it retreats into mysticism.</p><p>Semantic nominalism is atomistic - the relation of a name and its bearer
+doesn&rsquo;t turn on anything else.</p><a href=#kant-sellars-thesis><h1 id=kant-sellars-thesis><span class=hanchor arialabel=Anchor># </span>Kant-Sellars thesis</h1></a><p>From three premises:</p><ol><li>what you need to move from labeling to describing is situation in a space of
+implications</li><li>space of implications must draw lines between implications that will between
+counterfactual circumstances under which the implication would still be good,
+and those in which wouldn&rsquo;t</li><li>the expressive job, not in the first instance, a descriptive job that&rsquo;s
+characteristic of modal vocabulary is to make explicit those range those
+implications and those ranges of counterfactual robustness</li></ol><p>Put another way, suppose Sellars is right that modal expressions function as
+inference licenses. If it could be argued that those counterfactually robust
+inferences are essential to articulating the content of ordinary empirical
+descriptive concepts, then you&rsquo;d have an argument to the effect that the
+capacity to use modal concepts what modal concepts make explicit is implicit
+already in the use even of ordinary empirical, descriptive, non modal concepts.</p><p>It&rsquo;s explicit in Sellars, all but explicit in Kant. Some consequences:</p><ul><li><p>modal vocabulary is not something that you can casually add to ordinary
+descriptive vocabulary, like culinary vocabulary. Rather, the distinctive
+expressive job of modal vocabulary is to articulate the inferential
+connections among descriptive concepts in virtue of which they have the
+content that they do.</p></li><li><p>just in being able to use ordinary empirical descriptive vocabulary, non
+modal vocabulary anyone already knows how to do everything they need to know
+how to do in order to use modal vocabulary. They merely make explicit what is
+implicit in non-modal concepts.</p></li><li><p>One cannot be in the predicamant that Hume took himself to be in. We can
+teach you how to use modal vocabulary. You may not have a word for it yet.
+That&rsquo;s what we&rsquo;ll give you. But you already know how to <em>do</em> everything you
+need to know how to do to use that word to talk with &rsquo;necessity&rsquo;,
+&lsquo;possibility&rsquo; and the subjunctive.</p></li><li><p>Description and explanation are two sides of one coin.</p></li></ul><a href=#modal-revolution-in-the-20th-century><h1 id=modal-revolution-in-the-20th-century><span class=hanchor arialabel=Anchor># </span>Modal revolution in the 20th century</h1></a><p>Revolution in Anglophone philosophy, taking three phases:</p><ol><li>Kripke&rsquo;s
+<a href=../../Possible-worlds-semantics/ rel=noopener class=internal-link data-src=../../Possible-worlds-semantics/>possible worlds semantics</a> for modal logic (algebraic properties
+accessibility relation determine which modal system we&rsquo;re in)<ul><li>Quine was a skeptic of modal talk, said that we didn&rsquo;t know what we really
+meant when talking about it.</li><li>His concerns became unpopular with this development, as Kripke&rsquo;s semantics
+gave people the impression that we had a grasp on what we meant (in fact,
+alethic modal talk became the philosophical ground level for explaining
+other puzzling things (such as intentionality)).</li><li>Quine thinks his objection is not yet satisfied; of course we can explain
+modal concepts in terms of other modal concepts - what do we mean by
+<em>possible world</em>? What do we mean by <em>accessibility</em>?</li></ul></li><li>The previous development is only for modal logic, but Montague, David Kaplan,
+<a href=../../people/David-Lewis/ rel=noopener class=internal-link data-src=../../people/David-Lewis/>David Lewis</a>, Stalnaker, etc. extended
+it to work for non-logical semantics as well. See, for example, Lewis&rsquo;
+<a href=../../works/General-Semantics/ rel=noopener class=internal-link data-src=../../works/General-Semantics/>General Semantics</a></li><li>Kripke&rsquo;s
+<a href=../../works/Naming-and-Necessity/ rel=noopener class=internal-link data-src=../../works/Naming-and-Necessity/>Naming and Necessity</a></li></ol><ul><li>Introduced us to contingent <em>a priori</em> and metaphysical necessity</li></ul><p>Brandom says: the second is the most important, but Quine&rsquo;s objection was not
+addressed by Kripke&rsquo;s semantics nor the fact that it&rsquo;s useful in semantics to be
+able to use Kripke&rsquo;s apparatus. The reason why we should have gained
+comfortablity with alethic modal language is actually the
+<a href=../../Kant-Sellars-thesis/ rel=noopener class=internal-link data-src=../../Kant-Sellars-thesis/>Kant-Sellars thesis</a>,
+which dispels empiricist worries of modal concepts being unintelligible.</p><p>But hardly anyone knows about that argument. If they did, it would color our
+current focuses and interests. For the Kant-Sellars thesis pertains to
+causal/physical modalities. But nowadays, the center of philosophical thought
+worries about logical modalities and metaphysical modalities - causal modality
+is boring to them. &ldquo;We&rsquo;re distracted by the shiny, new playground that Kripke
+offered us and lost sight of the modality that&rsquo;s philosophically most
+significant.&rdquo;</p><a href=#debate-between-mr-c-and-mr-e><h1 id=debate-between-mr-c-and-mr-e><span class=hanchor arialabel=Anchor># </span>Debate between Mr C and Mr E</h1></a><table><thead><tr><th>Name</th><th>Mr C</th><th>Mr E</th></tr></thead><tbody><tr><td>Stands for</td><td>constant conjunction</td><td>entailment</td></tr><tr><td>Represents</td><td>empiricists</td><td>rationalists</td></tr><tr><td>Core of truth</td><td>statements of necessary connection do not describe matter of factual states of affairs</td><td>what you&rsquo;re <em>doing</em> when you make a modal claim is endorsing the propriety of a pattern of material inference</td></tr><tr><td>Core mistake</td><td>the only thing you can do with language is describe matter of factual states of affairs (therefore, laws must be descriptions of regularities)</td><td>statements of necessity describe entailment (still a descriptivist POV)</td></tr></tbody></table><p>Sellars take the dialectic through many turns instead of just saying what he
+thinks. He pretends to be even-handed until deciding to focus on tweaking
+Mr E.&rsquo;s theory to make it work.</p><p>Need to distinguish four related types of claims:</p><ol><li>The practical endorsement of infering that things are $B$&rsquo;s from their being
+$A$&rsquo;s.<ul><li>This is presupposed by the act of describing (Kant-Sellars thesis)</li></ul></li><li>The explicit statement that one may infer the applicability of $B$ from the
+applicability of $A$<ul><li>This can be asserted without understanding the expressions $A$ and $B$</li><li>I.e., it&rsquo;s syntactic; just a statement about the use of language</li><li>Someone who doesn&rsquo;t speak German can still say &ldquo;If $x$ is &lsquo;rot&rsquo;, then $x$
+is &lsquo;farbig&rsquo;.&rdquo;</li></ul></li><li>The statement that $A$ physically entails $B$</li><li>The statement that $A$&rsquo;s are necessarily $B$&rsquo;s.</li></ol><p>Mr E was getting the <em>content</em> of modal statements wrong; they aren&rsquo;t <em>about</em>
+language.</p><p>That some inference is ok is something that is <em>conveyed</em> by a modal claim, but
+it is not what is <em>said</em>. (Analogy: John <em>says/asserts/means</em> &ldquo;The weather is
+good today&rdquo;, but John <em>conveys</em> &ldquo;John thinks the weather is good today&rdquo; and John
+<em>does not say</em> &ldquo;John thinks the weather is good today.&rdquo;). Related to this
+<a href=../../Transposed-language-of-norms/ rel=noopener class=internal-link data-src=../../Transposed-language-of-norms/>quote</a>.</p><p>What Sellars&rsquo; conclusion ought to be: what one is <em>doing</em> in making a modal
+assertion is endorsing a pattern of material inference. No need to take a stand
+on semantics. This is an expressivist view of modal vocabulary. Analogous to
+expressivism in ethics: what you are <em>doing</em> in saying someone ought to do $X$
+is endorsing doing $X$. We can try to understand the semantic/descriptive
+content\footnote{We cannot deny there is any descriptive content due to the
+<a href=../../Frege-Geach-argument/ rel=noopener class=internal-link data-src=../../Frege-Geach-argument/>Frege-Geach argument</a> in terms of what one is <em>doing</em> when we use the expressions.)</p><a href=#what-makes-modal-claims-true><h1 id=what-makes-modal-claims-true><span class=hanchor arialabel=Anchor># </span>What makes modal claims true?</h1></a><p>Sellars wants to say it is the correctness of inferences connecting descriptive
+terms that make modal claims. Simultaneously, modal claims do not <em>say</em> anything
+about inferences.</p><p>It&rsquo;s important that notion of <em>saying</em> is wider than <em>describing</em>. This is the
+denial of semantic descriptivism.</p><p>The pragmatic force associated with the modal claim is endorsing a pattern of
+inference.</p><p>What one says is that being a $B$ follows from being an $A$. This is not a
+statement <em>about</em> inferences, it is a statement about a consequential relation.
+When one says &ldquo;$x$ being copper is incompatible with $x$ being an insulator&rdquo;,
+one is making a claim about the world (even if it is not describing it in the
+narrow sense). These are facts about what follows from what in the world. Given
+the auxillary hypothesis that our word &lsquo;copper&rsquo; means <em>copper</em>, there are things
+we can say about inferences, but the fact that we need that auxillary hypothesis
+is proof that the statement itself isn&rsquo;t about inferences.</p><p>So modal claims are descriptive in the wide sense but not the narrow sense.</p><p>There are some serious concerns, though. Consider &ldquo;There exist causal
+connections which have not yet been discovered&rdquo;. This is analogous to accepting
+the early emotivist line in ethics (thinking &lsquo;ought&rsquo; is a perfectly good concept,
+though not a descriptive one &mldr; such that &lsquo;Everybody ought to keep promises&rsquo;
+contextually implies a wish, on the speaker&rsquo;s part, that promise keeping were a
+universal practice), and was then confronted with such statements as &ldquo;There are
+obligations which have not yet been recognized&rdquo; and &ldquo;Some of the things we think
+of as obligations are not obligations&rdquo;</p><blockquote><p>It is therefore important to realize that the presence in the object language
+of the causal modalities (and of the logical modalities and of the deontic
+modalities) serves not only to express existing commitments, but also to provide
+the framework for the thinking by which we reason our way (in a manner
+appropriate to the specific subject matter) into the making of new commitments
+and the abandoning of old. And since this framework essentially involves
+quantification over predicate variables, puzzles over the &rsquo;existence of
+abstract entities&rsquo; are almost as responsible for the prevalence in the
+empiricist tradition of &rsquo;nothing-but-ism&rsquo; in its various forms (emotivism,
+philosophical behaviorism, phenomenalism) as its tendency to assimilate all
+discourse to describing.</p></blockquote><p>If we are to take causal modalities, seriously / at face value, we&rsquo;re going to
+have to worry about what abstract objects and what properties are.</p><p>Brandom thinks Sellars could have a simpler/more satisfying conclusion to the
+essay, but Sellars&rsquo; nominalism (denial of existence for abstract
+objects/properties) prevents him from doing so.</p><p>In Brandom&rsquo;s view,
+<a href=../../Material-inference-vs-logical-inference/ rel=noopener class=internal-link data-src=../../Material-inference-vs-logical-inference/>material inferences</a> are
+<a href=../../Nonmonotonic-logic/ rel=noopener class=internal-link data-src=../../Nonmonotonic-logic/>not monotonic</a>. The job of some
+scientific languages is to find concepts where we can state monotonic
+consequence relations. We can do that in fundamental physics, but hardly ever
+in the special sciences.</p><a href=#relation-to-hegel><h1 id=relation-to-hegel><span class=hanchor arialabel=Anchor># </span>Relation to Hegel</h1></a><p><a href=../../people/Georg-Wilhelm-Friedrich-Hegel/ rel=noopener class=internal-link data-src=../../people/Georg-Wilhelm-Friedrich-Hegel/>Hegel</a> says, &ldquo;By conceptual, I mean, what&rsquo;s articulated by relations of
+determinant negation <sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup> and mediation <sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup>&rdquo;.<sup id=fnref:4><a href=#fn:4 class=footnote-ref role=doc-noteref>4</a></sup> He says, the objective world,
+as it is, independently of our activities, is conceptually articulated. It has
+a conceptual structure because he&rsquo;s a modal realist about it.</p><p>He thinks there are laws of nature. He thinks some things really follow from
+other things. For instance, that if a body with finite mass is accelerated, then
+a force was applied to it. he thinks that&rsquo;s a consequence, and the remaining
+relatively at rest, and having a force supplied you those are incompatible.
+Those are incompatible properties.</p><p>So he says, the objective world has a conceptual structure already that has
+nothing to do with our conceiving activity. We can see that as something else.
+Yes, our commitments can also stand in relations of material consequence and in
+compatibility, but the world, just as it comes, is already in conceptual shape.</p><a href=#utility-of-possible-worlds-semantics><h1 id=utility-of-possible-worlds-semantics><span class=hanchor arialabel=Anchor># </span>Utility of possible worlds semantics</h1></a><p>Let &lsquo;possible world&rsquo; <em>mean</em> a physically possible world <sup id=fnref:5><a href=#fn:5 class=footnote-ref role=doc-noteref>5</a></sup>. This conceptual
+apparatus can be thought of simply as a way of expressing what it is for two
+properties to be incompatible or to stand in a material consequential relation.</p><p>So we can express (in the language of possible worlds) the fact that it follows
+from (as a consequence) something&rsquo;s being copper that it melts at 1084 °C, for
+example.</p><p><a href=../../people/David-Lewis/ rel=noopener class=internal-link data-src=../../people/David-Lewis/>David Lewis</a> is presented as an example of
+misusing possible world semantics. He
+discards the connection between inference and the possible worlds. He takes the
+descriptivist position that all one can do is describe with language, but then
+says he is not an actualist (you can describe non-actual worlds in the same
+sense that you can describe the coin in your pocket as copper).</p><p>What is lost by merging description in the narrow sense and description in the
+wide sense? The connection to semantics. We&rsquo;ve also gained an additional problem
+of justifying our claims to knowledge of the non-actual worlds.</p><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>in the narrow sense&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>i.e. material incompatibility&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:3><p>i.e. material consequence&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:4><p>Brandom says this is expressed, beginning in the section on perception of
+<a href=../../works/Phenomenology-of-Spirit/ rel=noopener class=internal-link data-src=../../works/Phenomenology-of-Spirit/>Phenomenology of Spirit</a>.&#160;<a href=#fnref:4 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:5><p>not just metaphysically possible world, whatever that is&#160;<a href=#fnref:5 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li>No backlinks found</li></ul></div></div><div id=contact_buttons><footer><p>Made by Kris Brown using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2022</p><ul><li><a href=https://kris-brown.github.io/>Home</a></li><li><a href=https://twitter.com/ksb_id>Twitter</a></li><li><a href=https://github.com/kris-brown>Github</a></li></ul></footer></div></div></body></html>
